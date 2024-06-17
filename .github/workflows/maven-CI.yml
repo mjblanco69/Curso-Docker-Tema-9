@@ -2,7 +2,7 @@ name: Maven CI/CD
 # yml arreglado o no? 
 on:
   push:
-    branches: [ Development ]
+    branches: [ main ]
 
 jobs:
     test_and_build:
